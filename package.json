@@ -1,0 +1,24 @@
+{
+	"name": "parcel-9513",
+	"version": "0.0.0",
+	"type": "module",
+	"description": "Parcel #9513 reproduction",
+	"license": "UNLICENSE",
+	"private": true,
+	"engines": {
+		"node": ">= 18"
+	},
+	"scripts": {
+		"build": "parcel build --no-cache",
+		"start": "node ."
+	},
+	"main": "dist/index.js",
+	"dependencies": {
+		"arg": "5.0.2"
+	},
+	"devDependencies": {
+		"parcel": "2.11.0",
+		"typescript": "5.3.3"
+	},
+	"source": "src/index.ts"
+}
